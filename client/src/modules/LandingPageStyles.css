@@ -1,0 +1,290 @@
+.LandingPageContainer{
+    display: grid;
+}
+
+.ImgFexGallery{
+    display: flex;
+    column-gap: 30px;
+    max-width: 99vw;
+    overflow: scroll;
+    /* padding-left: 30px; */
+}
+
+.ImgFexGallery::-webkit-scrollbar{
+    display: none;
+}
+
+
+.MainNavMenu{
+    background: #25454D;
+    display: grid;
+    grid-template-columns: 90px auto 90px;
+    padding: 15px 0;
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.MainNavMenu img{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+
+
+.MainNavMenu img:first-of-type{
+    height: 25px;
+    width: 45px;
+}
+
+.MenuContainer{
+    background-color: #25454D;
+    color: white;
+    font: 1.3em sans-serif;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 90px;
+    z-index: 3;
+    position: fixed;
+    top: 80px;
+}
+
+.MenuContainer ul {
+    display: grid;
+    row-gap: 40px;
+}
+
+.MenuContainer ul li{
+    cursor: pointer;
+}
+
+.HeroBanner{
+    display: grid;
+    font: 1em sans-serif;
+    align-items: center;
+    
+}
+
+.HeroBanner>header{
+    display: grid;
+    row-gap: 10px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background: #25454db9;
+    max-width: 45em;
+    padding: 20px;
+    justify-self: center;
+    border-radius: 20px;
+    
+
+
+}
+
+.HeroBanner picture{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    border: none;
+    background-color: #25454D;
+   
+}
+
+.HeroBanner picture img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.HeroBanner>header h1{
+    z-index: 1;
+    color: white;
+    /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.59); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.7em;
+    justify-content: center;
+    line-height: 30px;
+    padding: 20px;
+    align-items: bottom;
+    justify-self: center;
+    
+}
+
+.HeroBanner h1 i{
+    color: #ffdfb3;
+    /* text-decoration: underline; */
+    /* text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.59); */
+    /* -webkit-text-stroke: .2px white; */
+}
+
+
+.HeroBanner button, .HeroBanner a{
+    text-decoration: none;
+    width: 250px;
+    justify-self: center;
+    font: 1.3em sans-serif;
+    padding: 10px;
+    background-color: #C29557;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.24);
+    border: white solid 1px;
+    z-index: 1;
+
+}
+
+.ShotServices-Container{
+    background-color: #25454D;
+}
+
+
+.ShotServices-Container>header{
+    display: grid;
+    row-gap: 20px;
+    padding: 30px;
+    align-content: flex-start;
+    max-width: 35em;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+.ShotServices-Container>header h1{
+    font: 2em sans-serif;
+    color: #C29557;
+}
+
+.ShotServices-Container>header p{
+    font: 1.2em sans-serif;
+    color: white;
+}
+
+.ShotServices-Container>header button{
+    font: 1em sans-serif;
+    background-color: #C29557;
+    color: white;
+    border: none;
+    height: 50px;
+}
+
+.ShotServices-Container>aside picture img{
+    width: 99vw;
+
+}
+
+.AboutUs-Container{
+    margin-top: 50px;
+    display: grid;
+    background-color: #C29557;
+    /* align-items: center; */
+    row-gap: 20px;
+    padding: 30px 0;
+}
+
+
+
+
+
+
+.AboutUs-Container>main img{
+    margin-top: -90px;
+    width: auto;
+    height: 360px;
+}
+
+.AboutUs-Container>main{
+    display: grid;
+
+
+}
+
+.AboutUs-Container>main section{
+    display: grid;
+    color: white;
+    max-width: 450px;
+    padding: 0 30px;
+    text-align: left;
+    align-content: flex-start;
+    row-gap: 10px;
+    padding-bottom: 30px;
+
+
+}
+
+.AboutUs-Container>main section ul li{
+    list-style: circle;
+    
+}
+
+.AboutUs-Container>main section:last-of-type{
+    background-color: #25454D;
+    padding-top: 30px;
+}
+
+.AboutUs-Container>main section p{
+    font: 1.3em sans-serif;
+    
+}
+
+.AboutUs-Container>main section a{
+    background-color: #25454D;
+    border: none;
+    width: 150px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font: 1.2em sans-serif;
+    padding: 10px;
+}
+
+.AboutUs-Container>footer{
+    display: grid;
+    justify-content: center;
+    background-color: #25454D;
+    padding: 0 30px;
+    padding-top: 30px;
+    font: 1em sans-serif;
+    color: white;
+
+}
+
+
+.Footer-Container{
+    background-color: #25454D;
+    color: white;
+    padding:  20px 0;
+}
+
+
+
+@media screen and (min-width: 1130px) {
+
+    .HeroBanner>header h1{
+        font-size: 2.8em;
+        line-height: 45px;
+    }
+
+    .MenuContainer{
+        max-width: 20em;
+    }
+
+    .HeroBanner img{
+        height: 400px;
+    }
+
+  
+  
+    .AboutUs-Container>main{
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 85em;
+        justify-self: center;
+
+    }
+
+   
+
+  
+
+}
