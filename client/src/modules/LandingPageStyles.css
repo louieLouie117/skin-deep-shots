@@ -161,12 +161,14 @@
     color: white;
 }
 
-.ShotServices-Container>header button{
+.ShotServices-Container>header a{
     font: 1em sans-serif;
     background-color: #C29557;
     color: white;
     border: none;
-    height: 50px;
+    /* height: 50px; */
+    padding: 20px;
+    text-align: center;
 }
 
 .ShotServices-Container>aside picture img{
