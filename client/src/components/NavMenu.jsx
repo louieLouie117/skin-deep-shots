@@ -1,12 +1,19 @@
 import React from 'react'
 
-const NavMenu = props => {
+
+
+const NavMenu = ({MenuHandler}) => {
+
+  
 
   
   return (
-    <div className='MainNavMenu'>
-      <img src="/img/assets/MenuIcon.png" alt="" />
-      <img src="/img/assets/LogoImg.png" alt="" />
+    <div >
+     
+     <nav className='MainNavMenu'>
+          <img src="/img/assets/MenuIcon.png" alt="" onClick={ MenuHandler} />
+          <img src="/img/assets/LogoImg.png" alt=""  />
+        </nav>
     </div>
   )
 }
