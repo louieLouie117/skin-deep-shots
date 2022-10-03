@@ -1,7 +1,6 @@
 import React from 'react'
 import LandingPageStyles from '../modules/LandingPageStyles.css'
 
-import Footer from '../components/Footer'
 import Services from '../components/Services'
 
 
@@ -19,12 +18,7 @@ const LandingPage = props => {
 
       
         {/* <NavMenu MenuHandler={{MenuHandler}}></NavMenu> */}
-
-  
         <Services></Services>
-
-
-        <Footer></Footer>
     </div>
   )
 }

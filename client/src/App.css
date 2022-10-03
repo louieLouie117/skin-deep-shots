@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -51,4 +54,140 @@ ul{
 a{
   text-decoration: none;
   color: white;
+}
+
+
+
+.TextOveImg{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.TextOveImg>h1, .TextOveImg>picture{
+  font: 3em sans-serif;
+  color: white;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.464);
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.TextOveImg>picture img{
+  width: 100%;
+}
+
+
+
+.OShotInfo-Container{
+  display: grid;
+  text-align: left;
+  
+}
+
+.OShotInfo-Container a{
+  color: black;
+  text-decoration: underline;
+
+}
+.OShotInfo-Container>main{
+  display: grid;
+  max-width: 65em;
+  row-gap: 30px;
+  justify-self: center;
+}
+
+
+
+.OShotInfo-Container>main section{
+  display: grid;
+  padding: 0 30px;
+  font: 1em sans-serif;
+  align-items: center;
+}
+
+.OShotInfo-Container>main section ul{
+  padding-left: 20px;
+
+}
+
+.OShotInfo-Container>main section ul li{
+  list-style: circle;
+}
+
+.OShotInfo-Container>main section h2{
+  font: 1.9em sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #C29557;
+
+}
+
+.OShotInfo-Container>main section p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 25px;
+}
+
+.OShotInfo-Container>main section img{
+  max-width: 350px;
+}
+
+.OShotInfo-Container>footer{
+  padding: 40px;
+  display: grid;
+  background-color: #25454D;
+  row-gap: 20px;
+}
+
+.OShotInfo-Container>footer section{
+  max-width: 550px;
+
+}
+.OShotInfo-Container>footer a{
+  background-color: #C29557;
+  font: 1.5em sans-serif;
+  color: white;
+  width: 250px;
+  padding: 10px;
+  text-decoration: none;
+  justify-self: center;
+}
+
+.OShotInfo-Container>footer h2{
+  justify-self: center;
+  color: #C29557;
+
+}
+
+.OShotInfo-Container>footer h3{
+  color: #C29557;
+}
+
+.OShotInfo-Container>footer p{
+  color: white;
+}
+
+
+@media screen and (min-width: 1130px) {
+
+.OShotInfo-Container>main section{
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.OShotInfo-Container>footer h2{
+  grid-column: 1/3;
+  font: 2em sans-serif;
+}
+
+.OShotInfo-Container>footer{
+  grid-template-columns: 1fr 1fr;
+  column-gap: 110px;
+  margin: 40px;
+
+}
+
+.alignEnd{
+  justify-self: flex-end;
+  
+}
+
 }

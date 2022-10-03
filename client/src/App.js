@@ -7,6 +7,7 @@ import PShot from './components/PShot';
 import OShot from './components/OShot';
 import NavMenu from './components/NavMenu';
 import Menu from './components/Menu'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
     <div className="App">
       
 
-      <NavMenu MenuHandler={MenuHandler}></NavMenu>
+      <NavMenu  MenuHandler={MenuHandler}></NavMenu>
       <div style={{ display: mainMenu ? "grid": "none"}}>
           <Menu MenuHandler={MenuHandler}></Menu>
         </div>
@@ -41,8 +42,12 @@ function App() {
         <PShot path="p-shot-for-men"/>
         <OShot path="o-shot-for-women"/>
       </Router>
+
+      <Footer></Footer>
     </div>
   );
 }
 
 export default App;
+
+
