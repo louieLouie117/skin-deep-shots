@@ -84,7 +84,7 @@ const OShot = props => {
             <p>Anytime! Even the same day if you prefer.</p>
           </section>
 
-        <a href="https://calendly.com/redamounir">Book Your Spot Now!</a>
+        <a href="https://calendly.com/skindeep-jamie/30min?month=2022-10">Book Your Spot Now!</a>
 
         </footer>
 

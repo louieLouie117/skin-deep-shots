@@ -8,6 +8,7 @@ import OShot from './components/OShot';
 import NavMenu from './components/NavMenu';
 import Menu from './components/Menu'
 import Footer from './components/Footer';
+// import ContactOptions from './components/ContactOptions';
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
           <Menu MenuHandler={MenuHandler}></Menu>
         </div>
 
-
+      {/* <ContactOptions></ContactOptions> */}
       <Router>
         <LandingPage path="/"/>
         <PShot path="p-shot-for-men"/>

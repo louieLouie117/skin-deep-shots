@@ -50,7 +50,7 @@ const PShot = props => {
       </main>
 
       <footer>
-          <a href="https://calendly.com/redamounir">Book Your Spot Now!</a>
+          <a href="https://calendly.com/skindeep-jamie/30min?month=2022-10">Book Your Spot Now!</a>
 
         </footer>
     </div>

@@ -8,10 +8,10 @@ const Menu = ({MenuHandler}) => {
         <ul>
             {/* <li>Home</li> */}
             <li onClick={MenuHandler}>
-              <a href="https://purple-mud-01dbaa810.2.azurestaticapps.net/">Home</a>
+              <a href="https://www.skindeepprp.com/">Home</a>
             </li>
             <li>
-            <a href="https://calendly.com/redamounir">Book Your Spot Today</a>
+            <a href="https://calendly.com/skindeep-jamie/30min?month=2022-10">Book Your Spot Today</a>
               
             </li>
             <li>
