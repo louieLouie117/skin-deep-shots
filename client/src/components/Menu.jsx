@@ -16,7 +16,7 @@ const Menu = ({MenuHandler}) => {
             {/* <li>About Skin Deep</li> */}
             <li>
               
-              <a href="https://www.skindeephealthservices.com/">More Health Services
+              <a href="https://www.skindeepprp.com/">More Health Services
               </a>
               </li>
 
