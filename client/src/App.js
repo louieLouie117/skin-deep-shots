@@ -8,10 +8,15 @@ import OShot from './components/OShot';
 import NavMenu from './components/NavMenu';
 import Menu from './components/Menu'
 import Footer from './components/Footer';
+import MenuStyles from './modules/MenuStyles.css';
+
 // import ContactOptions from './components/ContactOptions';
 
 
+
 function App() {
+
+  <MenuStyles></MenuStyles>
 
   const [mainMenu, setMainMenu] = useState(false);
 
