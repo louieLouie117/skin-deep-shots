@@ -10,14 +10,15 @@ const Menu = ({MenuHandler}) => {
     <div className='MenuContainer'>
         <ul>
             {/* <li>Home</li> */}
-            <li onClick={MenuHandler}>Home</li>
+            <li>
+            <a href="https://www.skindeepprp.com/">Home</a>          
+            </li>
            
           
             {/* <li>About Skin Deep</li> */}
             <li>
               
-              <a href="https://www.skindeepprp.com/">More Health Services
-              </a>
+              <a href="https://www.skindeephealthservices.com/">More Health Services</a>
               </li>
 
               <li>
