@@ -30,6 +30,17 @@ const Menu = ({MenuHandler}) => {
            
         </ul>
 
+          <aside>
+          <ul>
+          <li>
+              <h2>Address</h2>
+              <p>366 East Graves Ave Suite C, Orange City Florida 32763</p>
+
+              <a href="http://maps.google.com/?q=366 East Graves Ave Suite C, Orange City Florida 32763" target="blank"><button>Directions</button></a>
+            </li>
+          </ul>
+        </aside>
+
         <footer>
           <h2>
               <h2>Contact/Connect with us</h2>
